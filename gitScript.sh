@@ -9,3 +9,4 @@ git commit -am "$Commit"
 
 git push origin master
 
+echo "işlem bitti..."
