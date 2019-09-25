@@ -1,10 +1,13 @@
 import React from 'react';
-import BooksList from "./booksList";
+import BookList from "./bookList/bookList";
+import BookDetail from './bookDetail/bookDetail'
+import './app.css';
 
 const App = () => {
     return (
-        <div>
-            <BooksList/>
+        <div className={'app-container'}>
+            <BookList/>
+            <BookDetail/>
         </div>
     )
 };
