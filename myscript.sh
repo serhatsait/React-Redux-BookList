@@ -1,9 +1,10 @@
 #!/bin/bash
+Commit=${1?Error: no commit description}
 
 git status
 
 git add -A
 
-git commit -am "bash script added"
+git commit -am "$Commit"
 
 git push origin master
